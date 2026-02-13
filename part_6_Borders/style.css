@@ -1,0 +1,13 @@
+h1{
+    /* border-style: outset;
+    border-width:10px; */
+    border-color:aqua;
+
+    /* Shorthend */
+    /* border: 5px solid #7372D5;
+    border-radius:5px; */
+    border-left: 5px solid #FF1927;
+    border-right: 5px double #19beff;
+    border-top: 5px groove #ff19dc;
+    border-bottom: 5px ridge #4719ff;
+}

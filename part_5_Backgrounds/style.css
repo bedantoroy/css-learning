@@ -1,0 +1,18 @@
+body{
+    background: url(img/vairab.jfif);
+    background-attachment: fixed;
+}
+div{
+    background-color: rgba(255, 182, 193, 0.6);
+    background-image: url(img/8.jfif);
+    background-size: 150px 150px;
+    /* background-repeat: repeat-x;
+    background-repeat: repeat-y; */
+    background-repeat: no-repeat;
+
+    background-position: right center;
+
+    /* Shorthand */
+    background: #f191b3 url(img/8.jfif) no-repeat center;
+}
+

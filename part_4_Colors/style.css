@@ -1,0 +1,25 @@
+body{
+    background: url(vairab.jfif);
+    margin: 30px;
+    margin-top: 50px;
+}
+h1{
+    color: rgb(0, 255, 255);
+    color: #000000;
+    color: #0000ff;
+    color: #00ff00;
+    color: #ff0000;
+    color: #ffffff;
+    color: #57b7ab;
+    color: #fae54b44;
+    color: rgb(255,255,255);
+    color: rgb(0,255,0);
+    color: rgb(0,0,255);
+    color: rgb(0,0,0);
+    color: rgba(255,255,0,0.3);
+    color: #e15f41;
+    color: rgb(0, 255, 255);
+}
+p{
+    color: #ffffff;
+}

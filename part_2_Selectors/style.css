@@ -1,0 +1,39 @@
+/* 
+* =>Universal Selector
+. => Class Selector
+# => Id Selector
+, => Group
+ */
+
+*{
+    margin: 0;
+    color: rgb(1, 62, 18);
+    padding: 0px;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin-bottom: 20px; 
+}
+/* p{
+    color: blue;
+} */
+div p{
+    color: rgb(0, 0, 0);
+}
+.text{
+    color: rgb(255, 0, 234);
+    text-align: right;
+}
+.first-div{
+    background-color: khaki;
+}
+.first-div p{
+    color: rgb(165, 100, 250);
+}
+#big-div, 
+#big-div-2, 
+ .first-div{
+    width: 400px;
+}
