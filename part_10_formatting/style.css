@@ -1,11 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 h1{
     color: #f949f9;
     /* background: blue; */
     text-align: center;
 }
-.one{
-    text-align-last: center;
+p{
+    margin-bottom: 20px;
 }
+/* Text Align Last */
+.one{
+    text-align: center;
+    text-align-last: left;
+}
+/* Text Align */
 .two{
-    
+    text-align: center;
+}
+/* Direction */
+.three{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+.baseline{
+    vertical-align: baseline;
+}
+.text-top{
+    vertical-align: text-top;
+}
+.text-bottom{
+    vertical-align: text-bottom;
+}
+.sub{
+    vertical-align: sub;
+}
+.super{
+    vertical-align: super;
+}
+a{
+    text-decoration: underline;
+}
+h2{
+    text-transform: uppercase;
+}
+p{
+    text-indent: 50px;
 }
