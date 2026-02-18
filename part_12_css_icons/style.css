@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 40px;
+    height: 40px;
+    background: #0866FF;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 15px;
+}
+i{
+    color: #ffffff;
+    background: #0866FF;
+    padding: 15px;
+    font-size: 14px;
+}
