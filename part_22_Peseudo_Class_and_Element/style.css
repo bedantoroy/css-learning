@@ -1,0 +1,48 @@
+a:hover{
+    color: red;
+}
+a:visited{
+    color: purple;
+}
+/* li:first-child{
+    color: crimson;
+    }
+    li:last-child{
+    color: crimson;
+    } */
+ li:nth-child(2n+2){
+     color: #079992;
+ }
+ body{
+     background: #38ada9;
+     background-image: url(1.jpg);
+     color: crimson;
+     background-size: 200px 200px;
+     background-repeat: no-repeat;
+     background-position: center center;
+ }
+ body::before{
+     content: 'Element';
+     background-image: url(1.jpg);
+     background-size: 100px 300px;
+     color: #fff;
+ }
+ body::after{
+     content: 'Element';
+     background-image: url(1.jpg);
+     background-size: 100px 300px;
+     color: #fff;
+ }
+ 
+p::first-line{
+    color: #fad390;
+    font-weight: bold;
+    font-size: 20px;
+}
+p::first-letter{
+    font-size: 40px;
+}
+p::selection{
+    background: #e55039;
+    color: #fff;
+}
