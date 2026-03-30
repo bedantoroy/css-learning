@@ -1,39 +1,55 @@
 /* 
-* =>Universal Selector
-. => Class Selector
-# => Id Selector
+h1 => Selector
+color => Property
+red => Value 
+* => Universal Selector
+. => class Selector
+# => ID Selector
 , => Group
- */
+*/
 
-*{
-    margin: 0;
-    color: rgb(1, 62, 18);
-    padding: 0px;
+* {
+  margin: 0;
+  color: crimson;
+  padding: 0;
 }
-div{
-    width: 200px;
-    height: 200px;
-    background-color: aqua;
-    margin-bottom: 20px; 
+h1 {
+  color: red; /* => Declaration */
+  font-size: 60px; /* => Declaration */
 }
-/* p{
-    color: blue;
-} */
-div p{
-    color: rgb(0, 0, 0);
+p {
+  font-size: 18px;
 }
-.text{
-    color: rgb(255, 0, 234);
-    text-align: right;
+div {
+  width: 200px;
+  height: 200px;
+  background: aqua;
+  margin-bottom: 20px;
 }
-.first-div{
-    background-color: khaki;
+div p {
+  color: black;
 }
-.first-div p{
-    color: rgb(165, 100, 250);
+.text-bk {
+  color: red;
+  text-align: center;
+  background: aqua;
+  margin: 20px;
 }
-#big-div, 
-#big-div-2, 
- .first-div{
-    width: 400px;
+.first-div {
+  background: blue;
+}
+.first-div p {
+  color: white;
+}
+.first-div p {
+  color: magenta;
+}
+.first_div {
+  margin: 0;
+}
+/* CSS Grouping */
+#big-div,
+#big-div-2,
+.first_div {
+  width: 400px;
 }
