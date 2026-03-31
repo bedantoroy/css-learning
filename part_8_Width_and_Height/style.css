@@ -21,6 +21,6 @@ body{
     /* max-width: 1140px; */
     /* min-width: 600px; */
 
-    height: inherit;
+    height: initial;
     /* max-height: 300px; */
 }
