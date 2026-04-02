@@ -14,7 +14,7 @@ a:visited{
      color: #079992;
  }
  body{
-     background: #38ada9;
+     background: aqua;
      background-image: url(1.jpg);
      color: crimson;
      background-size: 200px 200px;
@@ -35,7 +35,7 @@ a:visited{
  }
  
 p::first-line{
-    color: #fad390;
+    color: #ffa200;
     font-weight: bold;
     font-size: 20px;
 }
