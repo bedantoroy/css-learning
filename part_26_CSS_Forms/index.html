@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS part 26</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -14,15 +17,24 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, aperiam!</p>
         <form action="">
             <div class="child_form">
-                <label for="name">Enter Your Name</label>
+                <label for="name">Name</label>
                 <input type="text" name="name" id="" placeholder="Your Name">
             </div>
             <div class="child_form">
-                <label for="email">Enter Your Email</label>
+                <label for="email">Email</label>
                 <input type="email" name="email" id="" placeholder="Your Email Address">
             </div>
             <div class="child_form">
-                <label for="phone">Enter Your Phone</label>
+                <label for="phone">Country</label>
+                <select name="country" id="">
+                    <option value="bd">Bangladesh</option>
+                    <option value="in">India</option>
+                    <option value="pk">Pakistan</option>
+                    <option value="lk">Srilanka</option>
+                </select>
+            </div>
+            <div class="child_form">
+                <label for="phone">Phone</label>
                 <input type="number" name="phone" id="" placeholder="Your Phone Number">
             </div>
             <div class="child_form">
@@ -30,8 +42,7 @@
                 <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
             </div>
             <div class="child_form">
-                <label for="message">How can we help?</label>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="button" value="Send Message">
             </div>
         </form>
     </div>
