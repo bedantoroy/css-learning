@@ -21,7 +21,7 @@ body{
     color: #fff;
     text-decoration: none;
 }
-#main_menu li a:hover{
+#main_menu li:hover{
     background: #0652dd;
 }
 
