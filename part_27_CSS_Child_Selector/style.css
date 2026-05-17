@@ -38,10 +38,52 @@ body{
 }
 .child:nth-last-child(4){
     background: #2e86de;
-} */
+} 
 .child:nth-child(odd){
     background: #474787;
 }
 .child:nth-child(even){
     background: #40739e;
+}
+.child:nth-child(n){
+    background: #40739e;
+}
+.child:nth-child(n+4){
+    background: #40739e;
+}
+.child:nth-child(3n+2){
+    background: #40739e;
+}
+*/
+.child:nth-child(3n){
+    background: #40739e;
+}
+
+
+/* From Styling */
+form{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+input[type=text]{
+    border: 1px solid #ddd;
+    padding: 15px 25px;
+    color: #000;
+    font-size: 14px;
+    border-radius: 5px;
+    float: left;
+}
+input[type=button]{
+    background: #227093;
+    border: 1px solid #227093;
+    padding: 15px 25px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+    transition: 0.3s;
+}
+input:not(:placeholder-shown) + input[type='button']{
+    display: block;
 }
