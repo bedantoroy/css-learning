@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+}
+#test p.para{
+    color: blueviolet !important;
+}
+#test p.para{
+    color: fuchsia;
+}
+.child p.para{
+    color: blue;
+}
+p.para{
+    color: red;
+}
+p{
+    color: green;
+}
